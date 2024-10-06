@@ -1,0 +1,12 @@
+import java.util.Scanner;
+
+public class luaslingkaran {
+    public static void main(String[] args) {
+        Scanner inputR = new Scanner(System.in);
+        Float R, kelilingkaran;
+        System.out.print("Masukan jari-jari lingkaran: ");
+        R = inputR.nextFloat();
+        kelilingkaran = 2 * 3.14f * R;
+        System.out.println("Keliling lingkarannya adalah: "+kelilingkaran);
+    }
+}
