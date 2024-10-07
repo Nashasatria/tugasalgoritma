@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class Discountt {
+    public static void main(String[] args) throws Exception {
+        Double totalBayar;
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Masukan Toatal Belanja: ");
+        totalBayar =sc.nextDouble();
+
+        if (totalBayar > 50000);
+            totalBayar -= 10000;
+
+            System.out.print("Total yang harus dibayar: "+totalBayar);
+            sc.close();
+    }
+}
