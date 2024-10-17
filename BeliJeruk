@@ -1,15 +1,15 @@
 import java.util.Scanner;
 public class BeliJeruk {
     public static void main(String[] args) {
-        Scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.print("Masukan jumlah jeruk yang ingin dibeli ");
         int jumlah = scanner.nextInt();
         int TotalHarga;
-        if (Jumlah == 1) {
+        if (jumlah == 1) {
             TotalHarga = 3000;
-        }else if (Jumlah == 2 ) {
+        }else if (jumlah == 2 ) {
             TotalHarga = 5000;
-        }else if (Jumlah == 5 ) {
+        }else if (jumlah == 5 ) {
             TotalHarga = 10000;
         }else if (jumlah % 5 == 0 ){
             TotalHarga = jumlah * 10000 / 5;
